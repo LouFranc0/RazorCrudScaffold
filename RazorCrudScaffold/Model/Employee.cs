@@ -9,12 +9,12 @@ namespace RazorCrudScaffold.Model
         public int ID { get; set; }
 
         [Required]
-        [DisplayName("Employee Name")]
+        [DisplayName("Name")]
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [Required]
-        public string Surname { get; set; }
+        public string? Surname { get; set; }
 
         [Required]
         public int Age { get; set; }
